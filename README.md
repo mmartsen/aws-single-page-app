@@ -7,7 +7,7 @@ And this gist for cloudformation details: https://gist.github.com/singledigit/2c
 
 1. Deploy the stack
 `
-serverless deploy --authName=testPool
+serverless deploy --authName=testPool --googleClientId=YOUR_CLIENT --googleClientSecret=G_CLIENT_SECRET
 `
 
 2. Sync application code to S3
@@ -17,6 +17,4 @@ aws s3 sync app s3://test-single-page-app
 
 TODO:
 
-- add CORS settings to private bucket
 - add cognito-identity-js lib usage as example
-- add google identity provider

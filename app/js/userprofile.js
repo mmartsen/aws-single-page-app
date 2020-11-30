@@ -4,11 +4,11 @@ var urlParams = new URLSearchParams(window.location.search);
 var tokens;
 var domain = "userpooldomain22";
 var region = "us-east-1";
-var appClientId = "1tm9bdseg2ka4o3fipfa5mjtod";
-var userPoolId = "us-east-1_D9V7P4dxK";
-var redirectURI = "https://d1f8m8clxuephf.cloudfront.net";
-var privateBucketName = "single-page-app-via-cloudfront7-d-privates3bucket-144e56015yra7";
-var identityPoolId = 'us-east-1:7223b640-9017-4e23-8519-4d43b7e30266';
+var appClientId = "3qcg6gkru07t060v1e6qsl02bp";
+var userPoolId = "us-east-1_HJdp7hk04";
+var redirectURI = "https://d12yjhtzddnsz5.cloudfront.net/index.html";
+var privateBucketName = "single-page-app-via-cloudfront7-d-privates3bucket-1lxo07edtal1w";
+var identityPoolId = 'us-east-1:e6b020ae-27c9-4cba-87f0-d02e5f7cb931';
 
 
 //Convert Payload from Base64-URL to JSON
